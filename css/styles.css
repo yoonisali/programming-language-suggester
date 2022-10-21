@@ -1,7 +1,11 @@
 body {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
   background-color: rgb(72, 50, 72);
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .jumbotron {
@@ -10,7 +14,9 @@ body {
 
 .card-body {
   background-color:lavender;
+  min-height: 255px;
 }
+
 
 h1 {
   font-size: 50px;
@@ -39,3 +45,21 @@ img {
 .result h4 {
   color: white;
 }
+
+.border-green {
+  border-color: #198754;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 32px;
+  background-color: lavender;
+}
+
+button:hover {
+  background-color: #198754;
+  color: white;
+}
+
+
+
