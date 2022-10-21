@@ -22,17 +22,17 @@
           <div class="card-body">
             <h4 class="card-title">Where would be your ideal place to code?</h4>
             <label>
-              <input type="radio" name="idealSpace" value="office" checked>
+              <input type="radio" name="idealSpace" value="office" required>
               At the office with your co-workers.
             </label>
             <br>
             <label>
-              <input type="radio" name="idealSpace" value="home">
+              <input type="radio" name="idealSpace" value="home" required>
               At home in a quiet space.
             </label>
             <br>
             <label>
-              <input type="radio" name="idealSpace" value="vacation">
+              <input type="radio" name="idealSpace" value="vacation" required>
               At a resort in Fiji.
             </label>
             <br>
@@ -45,12 +45,12 @@
             <h4 class="card-title">Would you rather be an average person in the present or a King/Queen of a large
               country 2000 years ago?</h4>
             <label>
-              <input type="radio" name="personType" value="royal">
+              <input type="radio" name="personType" value="royal" required>
               King/Queen.
             </label>
             <br>
             <label>
-              <input type="radio" name="personType" value="average">
+              <input type="radio" name="personType" value="average" required>
               Average person.
             </label>
           </div>
@@ -61,12 +61,12 @@
           <div class="card-body">
             <h4 class="card-title">Which superpower would you rather have?</h4>
             <label>
-              <input type="radio" name="superPower" value="strength">
+              <input type="radio" name="superPower" value="strength" required>
               Super strength.
             </label>
             <br>
             <label>
-              <input type="radio" name="superPower" value="speed">
+              <input type="radio" name="superPower" value="speed" required>
               Super speed.
             </label>
           </div>
@@ -82,16 +82,16 @@
             <h4 class="card-title">What would be your weapon of choice in an apocalypse?</h4>
             <label>
               <input type="radio" name="killZom" value="gun">
-              A shotgun.
+              A shotgun required.
             </label>
             <br>
             <label>
-              <input type="radio" name="killZom" value="katana">
+              <input type="radio" name="killZom" value="katana" required>
               A katana.
             </label>
             <br>
             <label>
-              <input type="radio" name="idealSpace" value="chainsaw">
+              <input type="radio" name="idealSpace" value="chainsaw" required>
               A chainsaw.
             </label>
             <br>
@@ -101,14 +101,15 @@
       <div class="col-md-4">
         <div class="card border-dark mb-3" style="border-width: 10px" ;>
           <div class="card-body">
-            <h4 class="card-title">Would you rather meet a famous person who is boring or a regular person who is hilarious?</h4>
+            <h4 class="card-title">Would you rather meet a famous person who is boring or a regular person who is
+              hilarious?</h4>
             <label>
-              <input type="radio" name="meetType" value="famous">
+              <input type="radio" name="meetType" value="famous" required>
               A famous person.
             </label>
             <br>
             <label>
-              <input type="radio" name="meetType" value="regular">
+              <input type="radio" name="meetType" value="regular" required>
               A regular person.
             </label>
           </div>
@@ -119,12 +120,12 @@
           <div class="card-body">
             <h4 class="card-title">Who do you think would win in a fist fight?</h4>
             <label>
-              <input type="radio" name="hangType" value="musk">
+              <input type="radio" name="hangType" value="musk" required>
               Elon Musk
             </label>
             <br>
             <label>
-              <input type="radio" name="hangType" value="bezos">
+              <input type="radio" name="hangType" value="bezos" required>
               Jeff Bezos
             </label>
           </div>
@@ -133,19 +134,21 @@
     </div>
     <button type="submit">Submit!</button>
   </form>
-  <div id="python" class="hidden">
-    <h4>Python is your suggested language!!</h4>
-    <img src="img/python.jpeg" alt="A photo of python.">
-  </div>
+  <div class="result">
+    <div id="python" class="hidden">
+      <h4>Python is your suggested language!!</h4>
+      <img src="img/python.jpeg" alt="A photo of python.">
+    </div>
 
-  <div id="ruby" class="hidden">
-    <h4>Ruby is your suggested language!!</h4>
-    <img src="img/ruby.jpeg" alt="A photo of a red ruby.">
-  </div>
+    <div id="ruby" class="hidden">
+      <h4>Ruby is your suggested language!!</h4>
+      <img src="img/ruby.jpeg" alt="A photo of a red ruby.">
+    </div>
 
-  <div id="javascript" class="hidden">
-    <h4>Javascript is your suggested language!!</h4>
-    <img src="img/js.jpeg" alt="A photo of javascript.">
+    <div id="javascript" class="hidden">
+      <h4>Javascript is your suggested language!!</h4>
+      <img src="img/js.jpeg" alt="A photo of javascript.">
+    </div>
   </div>
 </body>
 
