@@ -2,45 +2,98 @@
 <html lang="en">
 
 <head>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/scripts.js"></script>
   <title>Programming Language Suggester</title>
 </head>
 
 <body>
-  <h1>Programming Language Suggester</h1>
-  <h2>Answer some questions to find out which programming language best suits you!</h2>
+  <div class="container">
+    <div class="jumbotron card border-dark mb-3" style="border-width: 10px" ;>
+      <h1>Programming Language Suggester</h1>
+      <h2>Answer some questions to find out which programming language best suits you!</h2>
+    </div>
+  </div>
   <form id="program">
-    <h4>Where would be your ideal place to code?</h4>
-    <label>
-      <input type="radio" name="operator" value="office" checked>
-      At the office with your co-workers.
-    </label>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card border-dark mb-3" style="border-width: 10px" ;>
+          <div class="card-body">
+            <h4 class="card-title">Where would be your ideal place to code?</h4>
+            <label>
+              <input type="radio" name="operator" value="office" checked>
+              At the office with your co-workers.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="operator" value="home">
+              At home in a quiet space.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="operator" value="vacation">
+              At a resort in Fiji.
+            </label>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-dark mb-3" style="border-width: 10px" ;>
+          <div class="card-body">
+            <h4 class="card-title">Would you rather be an average person in the present or a King/Queen of a large
+              country 2000 years ago?</h4>
+            <label>
+              <input type="radio" name="operator" value="royal">
+              King/Queen.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="operator" value="average">
+              Average person.
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-dark mb-3" style="border-width: 10px" ;>
+          <div class="card-body">
+            <h4 class="card-title">Which superpower would you rather have?</h4>
+            <label>
+              <input type="radio" name="operator" value="strength">
+              Super strength.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="operator" value="speed">
+              Super speed.
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-dark mb-3" style="border-width: 10px" ;>
+          <div class="card-body">
+            <h4 class="card-title">Which superpower would you rather have?</h4>
+            <label>
+              <input type="radio" name="operator" value="strength">
+              Super strength.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="operator" value="speed">
+              Super speed.
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
     <br>
     <br>
-    <label>
-      <input type="radio" name="operator" value="home">
-      At home in a quiet space.
-    </label>
     <br>
     <br>
-    <label>
-      <input type="radio" name="operator" value="vacation">
-      At a resort in Fiji.
-    </label>
-    <br>
-    <br>
-    <h4>Would you rather be an average person in the present or a King/Queen of a large country 2000 years ago?</h4>
-    <label>
-      <input type="radio" name="operator" value="royal">
-      King/Queen.
-    </label>
-    <br>
-    <br>
-    <label>
-      <input type="radio" name="operator" value="average">
-      Average person.
-    </label>
+    <button type="submit">Submit!</button>
 
   </form>
 </body>
