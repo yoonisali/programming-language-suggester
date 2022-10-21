@@ -20,7 +20,7 @@ _This is a webpage that will take the user's 6 questions and use that input to d
 ## Setup/Installation Requirements
 
 * _Clone git repository_
-* _Open html file named index.html_
+* _Open html file named index.html in a web browser_
 
 ## Known Bugs
 
