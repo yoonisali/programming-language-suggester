@@ -1,11 +1,11 @@
 body {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
   background-color: rgb(72, 50, 72);
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .jumbotron {
@@ -14,21 +14,21 @@ body {
 
 .card-body {
   background-color:lavender;
-  min-height: 255px;
+  min-height: 245px;
 }
 
 
 h1 {
-  font-size: 50px;
-  padding-bottom: 30px;
+  font-size: 36px;
+  padding-bottom: 20px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h4 {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -59,6 +59,10 @@ button {
 button:hover {
   background-color: #198754;
   color: white;
+}
+
+label {
+  margin-bottom: 5px
 }
 
 
