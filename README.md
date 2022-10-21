@@ -27,7 +27,5 @@ _This is a webpage that will take the user's 6 questions and use that input to d
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
 MIT
 Copyright (c) _Yoonis Ali_
